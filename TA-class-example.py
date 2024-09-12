@@ -68,7 +68,7 @@ plt.show()
 
 
 *******************************
-Plot Multiple Lines
+# Plot Multiple Lines
 ******************************* 
 
 import matplotlib.pyplot as plt
@@ -106,7 +106,7 @@ plt.show()
 
 
 *******************************
-Plot Numerous Points 
+# Plot Numerous Points 
 *******************************
 import numpy as np
 import matplotlib.pyplot as plt
@@ -142,7 +142,7 @@ plt.show()
 
 
 *******************************
-Plot Fitting Lines
+# Plot Fitting Lines
 *******************************
 import numpy as np
 import matplotlib.pyplot as plt
@@ -187,7 +187,7 @@ plt.show()
 
 
 *******************************
-Plot Fitting Lines
+# Plot Fitting Lines
 *******************************
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -222,7 +222,7 @@ plt.grid(True)
 plt.show()
 
 *******************************
-Create Dataframes 
+# Create Dataframes 
 *******************************
 import pandas as pd 
 import numpy as np
@@ -233,7 +233,7 @@ df = pd.DataFrame(data)
 print (df)
 
 *******************************
-Create Dataframes from Dic
+# Create Dataframes from Dic
 *******************************
 import pandas as pd
 data = {'name': ['Alice', 'Bob', 'Charlie'],
@@ -242,10 +242,8 @@ data = {'name': ['Alice', 'Bob', 'Charlie'],
 df = pd. DataFrame(data)
 print(df)
 
-
-
 *******************************
-Create Dataframes from Lists
+# Create Dataframes from Lists
 *******************************
 import pandas as pd
 # define the column and index labels
@@ -259,7 +257,7 @@ df = pd.DataFrame (index=B, columns=A)
 print (df)
 
 *******************************
-Shape Function
+# Shape Function
 *******************************
 import pandas as pd
 # Create a sample DataFrame
@@ -273,7 +271,7 @@ print (shape)
 
 
 *******************************
-Read Excel Files and Plot 
+# Read Excel Files and Plot 
 *******************************
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -292,7 +290,6 @@ markers = ['o', 's', '^']
 labels = ['F', 'H2O', 'EtOH']
 colors = ['b', 'g', 'r'] 
 
-
 # Plot each line with the specified marker, label, and color using enumerate
 for i, label in enumerate(labels):
     plt.plot(df['stream'], df[label], marker=markers[i], label=label, color=colors[i])
@@ -308,7 +305,7 @@ plt.grid(True)
 plt.show()
 
 *******************************
-Read CSV Files and Plot 
+# Read CSV Files and Plot 
 *******************************
 import pandas as pd
 import matplotlib.pyplot as plt
